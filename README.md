@@ -3,7 +3,7 @@ Spring Boot Web Application for "Student Result Management System".
 ## Pre-requisites:
 
 * Java 17+
-* In Memory H2 DB
+* In Memory H2 DB (Configured in pom.xml)
 
 ## To start the application:
 
