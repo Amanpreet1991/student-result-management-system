@@ -1,7 +1,5 @@
-logs/
 target/
 
 .classpath
 .project
 .settings
-.vscode/

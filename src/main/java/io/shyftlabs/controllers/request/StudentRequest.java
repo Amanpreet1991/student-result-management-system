@@ -24,9 +24,9 @@ public class StudentRequest {
     @Size(max = 50, message = "First name cannot be longer than 50 characters")
     private String firstName;
 
-    @NotBlank(message = "Family name cannot be blank")
-    @Size(max = 50, message = "Family name cannot be longer than 50 characters")
-    private String familyName;
+    @NotBlank(message = "Last name cannot be blank")
+    @Size(max = 50, message = "Last name cannot be longer than 50 characters")
+    private String lastName;
 
     @Size(max = 100, message = "Email cannot be longer than 100 characters")
     @Email(regexp = "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,3}", message = "Email is not valid")
